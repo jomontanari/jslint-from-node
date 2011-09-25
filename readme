@@ -1,0 +1,11 @@
+This runs the latest jslint script across a directory of files using node.js. Requires node to be installed. 
+
+Outputs to the command line, green for error-free files and red for files with errors.
+
+Usage
+=====
+
+Navigate to the jslint file: 
+node jslint-runner.js [directory]
+
+
