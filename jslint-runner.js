@@ -41,7 +41,6 @@ if (!dirName) {
 
 fs.readdir(process.cwd() + "/" + dirName, function(err, list) {
     list.forEach(function (file) {
-        console.log(file)
         var fileExtension = file.substr(file.length - 3);
         if (fileExtension === ".js") {
             doLint(dirName + "/" + file);
